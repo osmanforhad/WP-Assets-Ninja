@@ -3,7 +3,6 @@
  * Plugin Name:       Assets Ninja
  * Plugin URI:        https://osmanforhad.net/plugins/practice/
  * Description:       Wordpress assets management plugin
- * and Display QR code under every WorPress Post
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.1
