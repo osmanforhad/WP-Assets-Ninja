@@ -14,3 +14,19 @@
  * Text Domain:       assetsninja
  * Domain Path:       /languages/
  */
+class AssetsNinja{
+	function __construct() {
+		add_action('plugins_loaded', array($this, 'load_textdomain'));
+		add_action('wp_enqueue_scripts', array($this, 'load_front_assets'));
+	}
+
+	function load_textdomain(){
+		load_plugin_textdomain('assetsninja', false, plugin_dir_url(__FILE__)."/languages");
+	}
+
+	function load_front_assets(){
+		
+	}
+}
+
+new AssetsNinja();
